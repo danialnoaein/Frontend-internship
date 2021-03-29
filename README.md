@@ -1,3 +1,3 @@
 # Frontend-internship
 
-Hello
+Hello from friends
