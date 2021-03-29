@@ -1,4 +1,4 @@
 # Frontend-internship
 
-Hello in hotfixes branch for changes
+Hello in hotfixes branch for change
 
