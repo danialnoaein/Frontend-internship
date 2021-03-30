@@ -1,0 +1,49 @@
+.container > div{
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+ul li{
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    list-style: none;
+}
+.search input{
+    border: none !important;
+    height: 100%;
+    background-color: rgb(157, 226, 243);
+}
+.search input::placeholder{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    border-bottom: 1px solid #fff ;
+}
+body{
+    margin: 0;
+}
+html, body{
+    box-sizing: border-box;
+    background-color: #ffeead;
+    height: 100%;
+    padding: 10px;
+}
+/* .container >div:nth-child(1){
+    background-color: #96ceb4;
+}
+.container >div:nth-child(2){
+    background-color: #ff6f69;
+}
+.container >div:nth-child(3){
+    background-color: #68d8b0;
+}
+.container >div:nth-child(4){
+    background-color: #73df1b;
+} */
+.container{
+    background-color: rgb(157, 226, 243);
+}
