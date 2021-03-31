@@ -1,3 +1,3 @@
 # Frontend-internship
 
-Hello from friends
+گزارش نمونه
