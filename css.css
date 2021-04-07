@@ -1,5 +1,7 @@
 .bg-blue-900 {
     background-color: #1e293b;
+}.text-pink-100{
+    color:#475571 ;
 }
 .bg-blue-200{
     background-color: #38bdf8;
@@ -13,3 +15,21 @@
 .text-blue-200{
     color: #8b9bb0;
 }
+.bg-white {
+    color: #1e293b;
+}
+.text-black{
+    color: #334155;
+}.text-gray-400{
+    color: #64809d;
+}.text-gray-300{
+    color: #e2e8f0;
+}.text-gray-500{
+    color:#6d7c91 ;
+}.bg-blend-color{
+    background-color: #1e293b;
+}.bg-gray-100{
+    background-color: #e2e8f0;
+/* }.text-gray-700{
+    color: #ecf3f9;
+} */
