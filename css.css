@@ -1,1 +1,15 @@
-.
+.bg-blue-900 {
+    background-color: #1e293b;
+}
+.bg-blue-200{
+    background-color: #38bdf8;
+}
+.bg-blue-300{
+    background-color:#0284c7 ;
+}
+.bg-red-300{
+   background-color:#ec4899 ; 
+}
+.text-blue-200{
+    color: #8b9bb0;
+}
