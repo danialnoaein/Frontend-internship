@@ -34,11 +34,14 @@
     background-color: #1e293b;
 }.bg-gray-100{
     background-color: #e2e8f0;
-}.bg-transparent{
+}
+@media (min-width:1024px){
+.bg-transparent{
     border-bottom:50px solid #e2e8f0;
     border-left: 1260px solid #1e293b;
 }
 .bg-current{
     border-bottom:50px solid #1e293b;
     border-left: 1260px solid white;
+}
 }
