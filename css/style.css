@@ -1,3 +1,6 @@
+body{
+    direction: rtl;
+} 
 .bg-blueGray-200{
     background-color: #E5E7EB;
 }
