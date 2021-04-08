@@ -1,3 +1,6 @@
+body{
+    direction: rtl;
+}
 .bg-blue-900 {
     background-color: #1e293b;
 }.text-pink-100{
