@@ -1,0 +1,53 @@
+body{
+    background-color: #ebf3fe;
+    direction: rtl;
+    font-family: ;
+}
+@font-face{
+    font-family: ;
+    src: url('/font/ttf/IRANSansWeb_Bold.ttf');
+}
+/* .menu:visited{
+    background-color: blue;
+    
+} */
+.bg-red-100{
+    background-color: #fee5e0;
+    color: #ff6346;
+}
+.menu:hover{
+ color: white;
+ background-color: #ff6346;
+ border-radius: 30px;
+ padding-left: 1.5rem;
+ padding-right:1.5rem ;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin: -1.5rem;
+}
+.rosa{
+    background-color: #ff6346 ;
+}
+.red{
+    border: 1.5px solid #ff6346;
+    color: #ff6346;
+}
+.blue{
+    border: 1.5px solid #889cd1 ;
+    color: #889cd1;
+}
+/* .menu:active{
+    color: white;
+    background-color: #ff6346;
+} */
+/* .menu::before{
+    color: black;
+}
+.menu::after{
+    color: #fff;
+    background-color: #ff6346 ;
+} */
+/* .menu::selection{
+    color: #ebf3fe;
+    background-color: #ff6346;
+} */
