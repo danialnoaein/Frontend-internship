@@ -6,7 +6,7 @@ body{
 @font-face{
     font-family: ;
     src: url('/font/ttf/IRANSansWeb_Bold.ttf');
-}
+}  
 /* .menu:visited{
     background-color: blue;
     
@@ -51,3 +51,26 @@ body{
     color: #ebf3fe;
     background-color: #ff6346;
 } */
+input[type="radio"] {
+    display: none;
+  }
+  label {
+    height: 100%;
+    display: block;
+    background: #fee5e0;
+    color: #ff6346;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+  }
+  input[type="radio"]:checked + label {
+    background:#fff;
+    color:#889cd1;
+    &::after {
+      content: "";
+      position: absolute;
+      text-align: center;
+      border-radius: 50%;
+      background: white;
+    }
+  }
