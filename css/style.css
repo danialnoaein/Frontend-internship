@@ -1,5 +1,14 @@
+@font-face{
+  font-family: IranSanseBold;
+  src: url('/fonts/MobileFonts/IRANSansMobile_Bold.ttf');
+}
+@font-face{
+  font-family: IranSanseTLight;
+  src: url('/fonts/MobileFonts/IRANSansMobile_Light.ttf');
+}
 body{
     direction: rtl;
+    font-family: IranSanseBold;
 }
 .bg-orange-600{
   background-color: #EA580C;
@@ -7,32 +16,8 @@ body{
 .bg-orange-200{
   background-color: #FED7AA;
 }
-a:hover{
+.menu button:hover{
   background-color: #EA580C;
-  color: white;
   font-weight: bold;
-  border-radius: 30px;
-}
-label{
-  cursor: pointer;
-}
-lable, #content{
-  margin-bottom: 10px;
-  border: 1px solid #fff;
-  display: block;
-}
-#menu-toggle{
-  display: none;
-}
-#menu{
-  width: 780px;
-  overflow: hidden;
-  max-height: 0;
-  padding: 0;
-  margin: 0 auto;
-  -webkit-transition: all 0.3s ease;
-}
-#menu-toggle:checked + #menu{
-  max-height: 1000px;
-  max-width: 350px;
+  outline: none;
 }
