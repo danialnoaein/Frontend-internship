@@ -1,0 +1,22 @@
+@font-face{
+    font-family: IranSanseBold;
+    src: url('/fonts/MobileFonts/IRANSansMobile_Bold.ttf');
+    src: url('/fonts/IRANSans_Bold.ttf');
+  }
+  @font-face{
+    font-family: IranSanseTLight;
+    src: url('fonts/MobileFonts/IRANSansMobile_Light.ttf');
+  }
+  body{
+      direction: rtl;
+      font-family: IranSanseBold;
+  }
+  .bg-orange-600{
+    background-color: #EA580C;
+  }
+  .bg-orange-200{
+    background-color: #FED7AA;
+  }
+  .text-orange-600{
+    color: #EA580C;
+  }
