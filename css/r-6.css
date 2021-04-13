@@ -12,19 +12,11 @@ body{
     
 } */
 .bg-red-100{
+    
     background-color: #fee5e0;
     color: #ff6346;
 }
-.menu:hover{
- color: white;
- background-color: #ff6346;
- border-radius: 30px;
- padding-left: 1.5rem;
- padding-right:1.5rem ;
- padding-top: 10px;
- padding-bottom: 10px;
- margin: -1.5rem;
-}
+
 .rosa{
     background-color: #ff6346 ;
 }
@@ -36,41 +28,29 @@ body{
     border: 1.5px solid #889cd1 ;
     color: #889cd1;
 }
-/* .menu:active{
-    color: white;
-    background-color: #ff6346;
-} */
-/* .menu::before{
-    color: black;
-}
-.menu::after{
-    color: #fff;
-    background-color: #ff6346 ;
-} */
-/* .menu::selection{
-    color: #ebf3fe;
-    background-color: #ff6346;
-} */
-input[type="radio"] {
+
+
+  .form .plan input,label{
     display: none;
   }
-  label {
-    height: 100%;
-    display: block;
-    background: #fee5e0;
-    color: #ff6346;
-    border-radius: 20px;
-    text-align: center;
+  
+  .form label{
     position: relative;
+    color:black;
+    background-color:#fff;
+    font-size: 20px;
+    text-align: center;
+    display: block;
   }
-  input[type="radio"]:checked + label {
-    background:#fff;
-    color:#889cd1;
-    &::after {
-      content: "";
-      position: absolute;
-      text-align: center;
-      border-radius: 50%;
-      background: white;
-    }
+  
+  .form .plan input:checked + label{
+    color: #fff;
+    background-color: #ff6346;
+    padding-top:1px;
+    padding-bottom: 1px;
+    padding-left:1rem ;
+    padding-right: 1rem;
+    border-radius: 20px;
   }
+
+  
