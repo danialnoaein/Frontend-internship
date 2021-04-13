@@ -46,10 +46,8 @@ body{
   .form .plan input:checked + label{
     color: #fff;
     background-color: #ff6346;
-    padding-top:1px;
-    padding-bottom: 1px;
-    padding-left:1rem ;
-    padding-right: 1rem;
+    padding: 1px 1rem;
+    margin:0 -1rem;
     border-radius: 20px;
   }
 
