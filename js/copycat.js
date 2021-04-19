@@ -470,4 +470,413 @@ function sum(numberOne , numberTwo){
 }
 // sum()
 
+// //important
+
+// const numbers = [3,4];
+
+// numbers.push("push adds things at the end",5,8);
+
+// numbers.unshift("adds new elements at the begining");
+
+// numbers.splice(6,0,"adds anythin yo want after first number you give ,second number is how many emelent you want todelet")
+
+// console.log(numbers);
+
+
+
+// //finding primitive elemnts
+// const numbers = [1,2,3,1,4];
+
+// // indexofمیاد نشون میدخ این چیزی که داخلش گذاشتیم توی
+// //مثلا نامبرز هست اگر اره چندمیه
+
+// console.log(numbers.indexOf(1 , 2));//عدد دوم نشون میده عدد بعدی چندمیه
+// console.log(numbers.lastIndexOf(1));
+// console.log(numbers.indexOf(1) !== -1);//true means this element exist
+// console.log(numbers.includes(2));//true means this element exist
+
+
+// // // finding element objects
+
+// var array = [4,12,3]
+// var found = array.find(function(element){
+//     return element > 10
+// });
+// console.log(found)
+
+// const courses = [
+//     {id: 1 , name : "rosa"},
+//     {id:2 , name : "romina"},
+// ];
+
+//  const course = courses.find(function(course){
+//    return course.name === "romina";
+
+// });
+// console.log(course);
+
+//   // same
+// var courses = [
+//     {id: 1 , name : "rosa"},
+//     {id:2 , name : "romina"},
+// ];
+
+//  var course = courses.findIndex(function(course){
+//    return course.name === "rosa"; 
+
+// });
+// console.log(course);
+
+
+// // short model of first one
+// var array = [4,1,32]
+// var found = array.find(element => element > 10);
+// console.log(found);
+
+
+// // // //removing elements
+
+// // const numbers = [1,2,3,4]
+
+// // // // numbers.push() removing =>
+// // // const last = numbers.pop();
+// // // console.log(numbers);
+// // // console.log(last);
+
+// // // // numbers.unshift(); removing =>
+// // // const first = numbers.shift();
+// // // console.log(numbers);
+// // // console.log(first);
+
+// // // // // we want to remove 3
+// // // numbers.splice(2 , 1);
+// // // console.log(numbers);
+
+// // numbers.splice(1 , 2);
+// // console.log(numbers);
+
+
+
+// // //emptying an array همه چی توی اری حذف
+
+// let numbers = [1,4,7,9];
+// let another = numbers ;
+// // // //sloution 1 wont work with const we are changing the value
+
+// // numbers = [];
+// //  console.log(numbers);
+// //  console.log(another);
+
+// // //1 works if we do not have another refrence (another) to that array 
+
+// // //solution 2  
+// // //removes all elemnts
+
+// // numbers.length = 0;
+
+// // console.log(numbers);
+// // console.log(another);
+
+// // //solution 3
+
+// // numbers.splice(0, numbers.length);
+
+// // console.log(numbers);
+// // console.log(another);
+
+// // // solution 4 
+// // // we put pop in a loop
+
+// while  (numbers.length > 0)
+// numbers.pop();
+
+// console.log(numbers);
+// console.log(another);
+
+
+
+// // combine or slice arrays
+// // // concat
+
+// // const first = [1,2,3];
+// // const second = [4,5,6];
+
+// // const combined = first.concat(second);
+// // const slice = combined.slice(2,4);
+// // const slice2 = combined.slice(2);
+// // const slice3 = combined.slice();
+
+
+// // console.log(combined);
+// // console.log(slice);
+// // console.log(slice2);
+// // console.log(slice3);
+
+
+// const first = [{ id :1}];
+// const second = [4,5,6];
+
+// const combined = first.concat(second);
+// const slice = combined.slice(2,4);
+// const slice2 = combined.slice(2);
+// const slice3 = combined.slice();
+
+
+// console.log(combined);
+// console.log(slice);
+// console.log(slice2);
+// console.log(slice3);
+
+
+// // // iterating an array iterate ->repeat
+
+// const numbers = [1,2,3];
+
+// // // till here only one number will be executed
+// for (var number of numbers);
+// console.log(number);
+
+// // //will execute all the numbers 
+
+// numbers.forEach(function(number){
+//     console.log(number);
+
+// })
+// numbers.forEach((number , index) =>console.log(number ,index));
+
+
+
+// // // sorting the numbers
+
+// const numbers = [3,2,1];
+
+// numbers.sort();
+// console.log(numbers);
+
+// numbers.reverse();
+// console.log(numbers);
+
+
+// var courses = [
+//     {id:2 , name : "script"},
+//     {id:1 , name : "java"},
+// ]
+
+// courses.sort(function(a , b){
+
+//     if(a.name < b.name) return -1;
+//     if(a.name > b.name) return 1;
+//     return 0;
+    
+// });
+
+// console.log(courses);
+
+// var courses = [
+//     {id:2 , name : "script"},
+//     {id:1 , name : "java"},
+// ]
+
+// courses.sort(function(a , b){
+    
+//     var nameA = a.name.toLowerCase
+//     var nameB = b.name.toLowerCase
+
+//     if(nameA < nameB) return -1;
+//     if(nameB > nameA) return 1;
+//     return 0;
+    
+// });
+
+// console.log(courses);
+
+
+
+
+// // //filter an array
+
+// var numbers = [1,-1,3,4];
+
+// var filtered = numbers.filter(function(value){
+
+//     return value >= 0;
+
+// });
+// console.log(filtered)
+
+// var numbers = [1,-1,3,4];
+
+// var filtered = numbers.filter(value => value <= 0);
+
+// console.log(filtered)
+
+
+
+
+// // // mapping an arry
+
+// var numbers = [1,-1,3,4];
+
+// var filtered = numbers.filter(n => n >= 0);
+// var items = filtered.map(n => "<li>" + n + "</li>");
+
+// console.log(items);
+
+
+// var numbers = [1,-1,3,4];
+
+// var filtered = numbers.filter(n => n >= 0);
+// var items = filtered.map(n => "<li>" + n + "</li>");
+
+// var html = "<ul>" + items.join("") + "</ul>" ;
+
+// console.log(html);
+
+
+// var numbers = [1,-1,3,4];
+
+// var filtered = numbers.filter(n => n >= 0);
+// var items = filtered.map(n => {
+
+//     var obj = {value:n};
+//     return obj;
+// });
+
+// console.log(items);
+
+
+// // ??????
+
+// const numbers = arrayFromRange(-1,4);
+
+// console.log(numbers);
+
+// function arrayFromRange( min , max ){
+
+//     const outPut = [];
+//     for ( var i = min ; i <= max ; i++);
+//      outPut.push(i);
+
+//     return outPut;
+// };
+
+// // ??????
+
+
+
+// const numbers = [1,2,3,4];
+
+// console.log(inCludes(numbers, 1));
+
+// function inCludes(array, searchElement){
+
+//     for(var element of array)
+//         if(element === searchElement ) return true;
+//     return false ;
+
+// }
+
+// // // ???????
+// const numbers =[1,2,3,4];
+
+// const outPut = except(numbers,[1,2]);
+
+// console.log(outPut);
+
+// function except(array, excluded){
+
+//     var outPut =[];
+//     for(var element of array)
+//     if (!excluded.inCludes(element))
+//     outPut.push(element);
+//     return outPut;
+
+// }
+
+// // // ???????
+
+
+// const numbers =[1,2,3,4];
+
+// const count = countOccurences(numbers , 1);
+
+// console.log(count);
+
+// function countOccurences(array,searchElement){
+
+//     var count = 0;
+//      for( var element of array)
+//      if(element === searchElement) count++;
+//      return count;
+
+// }
+
+
+
+
+// var numbers = [1,2,3,4];
+
+// var max = getmax(numbers);
+
+// console.log(max);
+
+// function getmax(array){
+
+//     if(array.length === 0) return undefined ;
+
+//     var max = array[0]
+//     for( var w = 1; w < array.length ; w++ )
+//     if(array[w] > max)
+//     max = array[w];
+//     return max;
+// }
+// // // we use i becuase of index meaning but we can use anything we want
+// var numbers = [1,2,3,4,12];
+
+// var max = getmax(numbers);
+
+// console.log(max);
+
+// function getmax(array){
+
+//     if(array.length === 0) return undefined ;
+
+//     var max = array[0]
+//     for( var i = 1; i < array.length ; i++ )
+//     if(array[i] > max)
+//     max = array[i];
+//     return max;
+// }
+
+// var numbers = [1,2,3,4];
+
+// var max = getmax(numbers);
+
+// console.log(max);
+
+// function getmax(array){
+
+//     if(array.length === 0) return undefined ;
+
+//     return array.reduce((a,b )=> (a > b) ? a : b);
+// }
+
+
+
+const movie = [
+    {title: "a", year: 2017 , rating: 9 },
+    {title: "b", year: 2018 , rating: 5 },
+    {title: "c", year: 2018 , rating: 6.5 },
+    {title: "d", year: 2019 , rating: 8.9 },
+    {title: "e", year: 2020 , rating: 10 },
+];
+
+
+
+
+
+
+
+
+
 
