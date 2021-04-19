@@ -459,3 +459,15 @@
 //             return false;
 //         return true;
 // }
+
+
+function sum(numberOne , numberTwo){
+//    var sum = parsInt(prompt( 25 , 25));
+    var sum = 25 + 20
+
+    // return numberOne + numberTwo
+    // console.log(sum)
+}
+// sum()
+
+
