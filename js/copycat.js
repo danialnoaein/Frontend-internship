@@ -406,4 +406,56 @@
 //     return avarage;
 // }}
 
+// showstars(5);
 
+// function showstars(rows) {
+//     for (var row = 1; row <= rows; row++){
+//         var pattern = "";
+//         for (var i = 0; i<row ;i++ )
+//         pattern += "*"
+//         console.log(pattern)
+//     }
+
+// }
+
+// console.log(sum(10));
+
+// function sum(limit) {
+
+//     var sum = 0 ;
+//     for (var i = 0; i <= limit ; i++)
+//         if (i % 3 === 0 || i % 5 === 0 );
+//         sum += i;
+
+//         return sum;
+// }
+
+// showPrimes(20);
+
+// function showPrimes(limit){
+//     for(var number = 2 ; number <= limit ; number++ ){
+//     var isPrime = true;
+
+//         for(var factor=2 ; factor < number ; factor++)
+//             if( number % factor === 0){
+//             isPrime = false ;
+//             break;
+//         }
+
+//         if (isPrime) console.log(number);
+//     }
+// }
+
+// showPrimes(20);
+
+// function showPrimes(limit){
+//     for(var number = 2 ; number <= limit ; number++ )
+   
+//         if (isPrime(number)) console.log(number);
+// }
+// function isPrime(number){
+//         for(var factor=2 ; factor < number ; factor++)
+//             if( number % factor === 0)
+//             return false;
+//         return true;
+// }
