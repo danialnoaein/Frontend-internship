@@ -468,7 +468,7 @@ function sum(numberOne , numberTwo){
     // return numberOne + numberTwo
     // console.log(sum)
 }
-// sum()
+sum()
 
 // //important
 
@@ -869,11 +869,101 @@ const movie = [
     {title: "c", year: 2018 , rating: 6.5 },
     {title: "d", year: 2019 , rating: 8.9 },
     {title: "e", year: 2020 , rating: 10 },
-];
+]
+
+
+
+// // //functions
+
+// walk();
+
+// function walk(){
+//     console.log("walk");
+// }      
+
+// // // function expression with walk named without ananymous
+
+// const run = function walk(){
+//     console.log("run");
+// };
+// let move = run ;
+// move ();
+// run();
+
+
+// //hoisting???????????????
+
+
+// // //argument
+
+// function sum (a,b){
+//     // console.log(arguments);
+//     return a + b
+// }
+// console.log(sum(1,4))
+
+
+
+// function sum (){
+//     let total = 0;
+//     for( let value of arguments)
+//     total += value;
+
+//     return total
+// }
+// console.log(sum(1,4,7,9,3))
 
 
 
 
+
+// // // the rest oporator
+
+
+// function sum (...args){
+//    console.log(args);
+// }
+// console.log(sum(1,4,7,9,3));
+
+
+// function sum(...args){
+//   return args.reduce((a,b) => a+b);
+// }
+// console.log(sum(1,4,7,9,3));
+
+//dosent work
+
+// function sum(discount, ...prices) {
+//    total = prices.reduce((a,b) => a+b);
+// return total * ( 1 - discount);
+// }
+// console.log(sum(0.1,20,30));
+
+
+
+// function intrest(principal ,rate , years){
+
+//     // rate = rate || 3.5 ;
+//     // years = years || 5 ;
+
+//     return principal * rate / 100 * years;
+// }
+// console.log(intrest(1000,3.5,5));
+
+
+
+// // scope
+
+// const message = "hi";
+// console.log(message);
+
+
+// function start()
+// {const message = "hi";
+//     if (true)
+
+// }
+// console.log(message);
 
 
 
