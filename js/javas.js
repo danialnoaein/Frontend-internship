@@ -173,5 +173,33 @@
 
 
 
+var car = {
+    color : "red",
+    weight : 1200,
+    drive : function(){
+       console.log("car is benig drived")
+    },
+    
+};
+// car.drive();
+car["color"]= "red";
+car.color = ["blue","yellow"];
+car.color = ["red","blue","green","yellow"];
+car.color[3] = car.weight;
+car.color.push(car.currentUsage)
+// console.log(car.color.length);
+console.log(car.color.length - 1);
+console.log(car.color.lastIndexOf - 1);
+console.log(car,car.drive());
+
+car.currentUsage = function(kilometer){
+    return km + "km";
+};
+
+
+
+
+
+
 
 
